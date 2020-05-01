@@ -1,0 +1,364 @@
+*{
+	padding:0;
+	margin:0;
+	font-family:montserrat;
+}
+
+h1{
+	margin:auto;
+	
+}
+
+
+
+
+.barra{
+	width:100%;
+	height:50px;
+	background-color: #e84668;
+	}
+
+.container{
+	width:1040px;
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin:auto;
+	margin-top:20px;
+}	
+
+.topo{
+	width:1040px;
+	height:200px;
+	margin:auto;
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+
+.topo input{
+	height:30px;
+	border-radius:20px;
+	border:none;
+	line-height:30px;
+	background-color: #ffb2c6;
+	width:250px;
+}
+
+.topo form{
+	border:3px solid #EEE;
+	height:40px;
+	border-radius: 20px;
+	display:flex;
+	padding-left:10px;
+	padding-right:5px;
+	align-items: center;
+	background-color: #ffb2c6;
+	margin-right:0px;
+	margin-top:20px;
+
+	
+	
+}
+
+
+	
+.topodir{
+	display:flex;
+	flex-direction:column;
+	height:200px;
+	width:300px;
+	justify-content: center;
+	align-items:center;
+	
+}
+
+.topodirint{
+	width:300px;
+	display:flex;
+	justify-content: space-between;
+
+}
+
+#entrada{
+	line-height: 24px;
+	padding:0px;
+	display:flex;
+	align-items:center;
+	
+
+}
+
+
+#compras{
+	line-height: 24px;
+	padding:0px;
+	display:flex;
+	align-items:center;
+}
+
+div .entrar {
+	margin-left:4px;
+}
+
+div #cesta {
+	margin-left:4px;
+}
+
+a:visited, a:active, a:link, a{
+cursor: pointer;
+color:black;
+font-weight: bold;
+}
+
+.girls a:hover{
+	color:black;
+	text-decoration: none;
+}
+
+
+
+
+.contato{
+	margin-bottom:30px;
+}
+
+.topoesq{
+	display:flex;
+	width:200px;
+	height:100px;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.topoesq a{
+	margin:5px;
+}
+
+.menu-bar{
+	display:flex;
+	justify-content: space-around;
+	width:1040px;
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.menu-bar li{
+	text-align:center;
+
+}
+.menu-bar ul{
+	list-style:none;
+	width:110px;
+}
+
+
+.menu-bar .hidden{
+	visibility:hidden;
+	font-size:12px;
+
+}
+
+
+.menu-bar .hidden li a:hover{
+	text-decoration: underline;
+	
+}
+
+
+.menu-bar .girls:hover ul{
+	background-color: #ffb2c6;
+	visibility: visible;
+	border-radius: 15px;
+
+	
+
+}
+
+.menu-bar .girls:hover {
+	background-color: #ffb2c6;
+	border-radius: 15px;
+}
+
+
+
+.menu-bar .boys:hover ul{
+	background-color: #2aa9e0;
+	visibility: visible;
+	border-radius: 15px;
+	
+
+}
+
+.menu-bar .boys:hover {
+	background-color:#2aa9e0;
+	border-radius: 15px;
+}
+
+
+.menu-bar .babys:hover ul{
+	background-color: #afedba;
+	visibility: visible;
+	border-radius: 15px;
+	
+
+}
+
+.menu-bar .babys:hover {
+	background-color:#afedba;
+	border-radius: 15px;
+}
+
+.menu-bar .teens:hover ul{
+	background-color: #fee997;
+	visibility: visible;
+	border-radius: 15px;
+	
+
+}
+
+.menu-bar .teens:hover {
+	background-color:#fee997;
+	border-radius: 15px;
+}
+
+.menu-bar .adults:hover ul{
+	background-color: #ffa07a;
+	visibility: visible;
+	border-radius: 15px;
+	
+
+}
+
+.menu-bar .adults:hover {
+	background-color:#ffa07a;
+	border-radius: 15px;
+}
+
+.menu-bar .bands:hover ul{
+	background-color: #FF0d33;
+	visibility: visible;
+	border-radius: 15px;
+	
+
+}
+
+.menu-bar .bands:hover {
+	background-color:#FF0d33;
+	border-radius: 15px;
+}
+
+
+
+
+.faixa{
+	
+	width:1040px;
+	height:2px;
+	background-color:#6f66a0;
+	margin:auto;
+	padding:0;
+	margin-top:-93px;
+	margin-bottom:60px;
+
+
+}
+
+.container2{
+	width:1040px;
+	margin:auto;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.carousel{
+	width:350px;
+	padding:0px;
+	margin:auto;
+	text-align: center;
+	margin-top:0px;
+
+}
+
+.carousel img{
+	border:10px solid #EEE;
+	box-sizing: border-content;
+	text-align: center;
+	border-radius: 5px;
+	border:1px solid #333;
+	margin:0px;
+	padding:0px;
+
+}
+
+.galeria{
+	display:flex;
+	width:660px;
+	height:525px;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	border-radius:5px;
+	margin-left:20px;
+	border:1px solid #333;
+	
+
+
+
+	
+	
+}
+
+
+.galeria div{
+	border:1px solid #333; 
+}
+
+.galeria2, .galeria-arte{
+	display:flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin-top:20px;
+	
+	
+
+}
+
+.galeria2 a img{
+	border:1px solid #333;
+	margin:2px;
+	padding:0;
+}
+
+
+.produto {
+	width:220px;
+	height:300px;
+	margin:10px;
+	float:left;
+	text-align:center;
+	border:2px solid #EEEEEE;
+	color:#000;
+	
+}
+.produto:hover {
+	border:2px solid #CCCCCC;
+}
+
+.produto_foto {
+	width:220px;
+	margin-top:20px;
+	margin-bottom:20px;
+	float:left;
+}
+.produto_info {
+	float:left;
+	margin-left:20px;
+}
